@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type:"text/css" rel="stylesheet" href="stylesheet.css"/>
+  <title>Reichstag</title>
+</head>
+
+<body>
+
+    <div id="headers">
+      <div>
+        <img id="header" src="PICS/sprint.svg">
+      </div>
+      <div>
+          <img id="header2" src="PICS/hamburgermenu.svg">
+      </div>
+
+      <div id="menu">
+        <p id="X">X</p>
+        <p id="menuItems">
+          Settings<br>
+          <br>
+          Pricing<br>
+          <br>
+          Upgrade<br>
+          <br>
+          Subscribe<br>
+        </p>
+        <p id="logOut">Log Out</p>
+      </div>
+    </div>
+
+      <div id="splash">
+          <img id="build" src="PICS/reichstag.jpg" alt="Picture of Reichstag building">
+          <h2 id="welcome"><italics>Welcome to Berlin and the Future.</italics></h2>
+          <h3 id="button">Get Started</h3>
+          <div id="overlay"></div>
+      </div>
+
+      <div id="mainbox">
+
+                 <div class="upperLeft">
+                   <p><strong>Best-in-class Features</strong>
+                     <br>Nobody does this stuff better than us. You can bet your life on that.</p>
+                     <div class="inner">
+                       <img id="cat" src="PICS/cat.svg">
+                     </div>
+                   </div>
+                   <div class="lowerLeft">
+                     <p><strong>An Acquired Tatse</strong>
+                       <br>It may take a little while for you to warm up to us but once you do you will never want to switch.</p>
+                       <div class="inner2">
+                         <img id="swim" src="PICS/swim.svg">
+                       </div>
+                    </div>
+
+                <div class="upperRight">
+                    <p><strong>Reliable Service</strong>
+                      <br>You can count on us to help you whenever you need it. We're talking around the clock service.</p>
+                      <div class="innerUpperRight">
+                        <img id="world" src="PICS/world.svg">
+                      </div>
+                  </div>
+                  <div class="lowerRight">
+                    <p><strong>No Limit</strong>
+                      <br>There are absolutely no limits. We do not throttle. We do not cap.</p>
+                      <div class="innerLowerRight">
+                        <img id="columns" src="PICS/columns.svg">
+                      </div>
+                  </div>
+                </div>
+      </div>
+
+    <footer id=footer>&copy; 2016 Some organization</footer>
+    <script src="script.js"></script>
+    <script>(function(selector){
+      var selectors = document.querySelectorAll('p');
+        for  (i = 0; i < selectors.length; i++)
+
+        {
+          selectors[i].setAttribute('style','font-style:italic;font-style:normal;text-decoration:underline;color:red;')
+        }
+
+    })();
+
+    </script>
+</body>
+</html>

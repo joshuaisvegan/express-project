@@ -1,0 +1,55 @@
+body{
+    background-color: #8CD528;
+}
+
+#main{
+    text-align: center;
+    width: 100%;
+}
+
+#logo{
+    border: transparent;
+    height: 50px;
+    padding-left: 20px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+button{
+    width: 50px;
+    color: grey;
+}
+
+#none{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#note{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#listContainer{
+    font-family: sans-serif;
+
+}
+
+a.title{
+    color: white;
+    text-decoration: none;
+}
+
+IMG{
+    width: 100px;
+    margin-right: 20px;
+    border: white solid 4px;
+}
