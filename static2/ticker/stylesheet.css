@@ -1,0 +1,16 @@
+#container{
+  position: fixed;
+  border: 1px solid black;
+  height: 30px;
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+}
+
+#container a{
+  color: white;
+  padding-left: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+}

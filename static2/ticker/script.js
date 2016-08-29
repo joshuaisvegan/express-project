@@ -29,7 +29,6 @@ function transform(oldObject){
 }
 
 function insertHTML(stories){
-    console.log('stires ' + stories);
     stories = JSON.parse(stories);
     var headlineArray = transform(stories);
     console.log(headlineArray);
