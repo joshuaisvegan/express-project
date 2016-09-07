@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+</head>
+<body>
+    <h1>Congratulations! You're now creeping on these folks.</h1></b>
+    <p>(filter your options to perform more granular creeping):
+        <form>
+            <select value="select" name="city">
+                {{#cities}}
+                <option>{{.}}</option>
+                {{/cities}}
+            </select>
+            <select value="select" name="color">
+                {{#colors}}
+                <option>{{.}}</option>
+                {{/colors}}
+            </select>
+            <input type="submit"></input>
+        </form>
+            <ul>
+                {{#userinfo}}
+                <li>{{first_name}} {{last_name}}<br>
+                <p>AGE: {{age}} || CITY: {{city}}<br>
+                <p>WEB: {{homepage}} || FAVE: {{color}}<br>
+                {{/userinfo}}
+            </ul>
+
+</body>
+</html>
